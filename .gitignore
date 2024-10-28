@@ -70,3 +70,29 @@
 # Ignote sentry
 **/sentry.properties
 **/.sentry-native
+
+# Ignore build files and binaries
+/build/
+/bin/
+*.exe
+*.dll
+*.obj
+
+# Ignore dependency and package manager files
+node_modules/
+*.log
+
+# Ignore large media files (you can list them individually if needed)
+/Assets/Textures/
+/Assets/Sounds/
+*.mp4
+*.wav
+*.png
+
+# Ignore IDE/project-specific files
+.vscode/
+*.sln
+*.csproj
+*.user
+.DS_Store
+Thumbs.db
